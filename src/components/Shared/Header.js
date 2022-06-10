@@ -12,7 +12,7 @@ const Header = () => {
       navText: "About",
     },
     {
-      navLink: "#",
+      navLink: "#projects",
       navText: "Projects",
     },
     {
@@ -49,22 +49,24 @@ const Header = () => {
               {navLinks.map((navLink) => {
                 return (
                   <li>
-                    <Link to={navLink.navLink}>{navLink.navText}</Link>
+                    <a href={navLink.navLink}>{navLink.navText}</a>
                   </li>
                 );
               })}
             </ul>
           </div>
-          <a class="btn btn-ghost normal-case text-xl">Solaiman I. N.</a>
+          <Link to={"#"} class="btn btn-ghost normal-case text-xl px-0 ">
+            Solaiman I. N.
+          </Link>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
             {navLinks.map((navLink) => {
               return (
                 <li>
-                  <Link className="font-semibold" to={navLink.navLink}>
+                  <a className="font-semibold" href={navLink.navLink}>
                     {navLink.navText}
-                  </Link>
+                  </a>
                 </li>
               );
             })}
