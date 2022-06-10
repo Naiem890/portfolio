@@ -22,7 +22,7 @@ const Header = () => {
   ];
 
   return (
-    <div className="container mx-auto xl:px-12 absolute top-0 bg-base-100">
+    <div className="container mx-auto xl:px-12 fixed top-0 bg-base-100">
       <div class="navbar ">
         <div class="navbar-start">
           <div class="dropdown">
