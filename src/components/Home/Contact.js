@@ -170,7 +170,10 @@ const Contact = () => {
                 ></textarea>
               </div>
               <div className="flex justify-end">
-                <button type="submit" class="btn bg-white text-black px-7">
+                <button
+                  type="submit"
+                  class="btn hover:bg-gray-500 border-0 hover:text-white bg-white text-black px-7"
+                >
                   Submit
                 </button>
               </div>
