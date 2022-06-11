@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="bg-slate-100">
-      <div className=" container mx-auto min-h-screen pt-28 md:pt-16 gap-6  px-6  xl:px-20 grid md:grid-cols-2 items-start md:items-center justify-between text-center md:text-left">
+      <div className=" container mx-auto py-5 min-h-screen pt-28 md:pt-16 gap-6  px-6  xl:px-20 grid md:grid-cols-2 items-start md:items-center justify-between text-center md:text-left">
         <div className="md:-mt-10">
           <h1 className="xl:text-6xl text-5xl font-Kdam leading-snug mb-3 xl:leading-relaxed">
             Solaiman Islam Naiem

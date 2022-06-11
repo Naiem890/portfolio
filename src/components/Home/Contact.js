@@ -16,7 +16,7 @@ const Contact = () => {
       {/* <h2 className="text-5xl  font-Kdam text-center mt-6 ">Contact Me</h2> */}
       <div className=" border-2 rounded-xl overflow-hidden border-gray-500 max-w-6xl mx-auto">
         <div class="grid grid-cols-8">
-          <div class="md:col-span-3 py-10 pl-4 xl:pl-10 pr-4 bg-gray-600">
+          <div class="col-span-full md:col-span-3 py-10 pl-4 xl:pl-10 pr-4 bg-gray-600">
             <h3 className="text-4xl font-Kdam font-bold">Let's get in touch</h3>
             <p class="text-xl text-gray-400 font-medium mt-6 mb-9">
               I'm open for talk about project or just to have a chat.
@@ -101,7 +101,7 @@ const Contact = () => {
               </a>
             </div>
           </div>
-          <div class="col-span-5 p-10">
+          <div class="col-span-full md:col-span-5 p-10">
             <h3 className="text-4xl font-Kdam font-bold">Send Me Message</h3>
 
             <form action="" className="mt-14 flex gap-4 flex-col">
