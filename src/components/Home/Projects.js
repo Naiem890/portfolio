@@ -1,7 +1,8 @@
 import React from "react";
 import Project from "./Project";
-import ProjectImg2 from "./../../images/project-2.png";
 import ProjectImg1 from "./../../images/project-1.png";
+import ProjectImg2 from "./../../images/project-2.png";
+import ProjectImg3 from "./../../images/project-3.png";
 
 const Projects = () => {
   const Projects = [
@@ -35,7 +36,7 @@ const Projects = () => {
     },
     {
       projectName: "Task Manger",
-      projectImg: ProjectImg2,
+      projectImg: ProjectImg3,
       projectRoute: `/project/task-manager`,
       projectStack: [
         "ReactJS",

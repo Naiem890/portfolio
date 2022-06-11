@@ -1,3 +1,4 @@
+import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -6,11 +7,11 @@ const Project = ({ project }) => {
     <Link to={project.projectRoute}>
       <div className="border rounded-xl cursor-pointer hover:shadow-xl transition-all shadow-zinc-900">
         <div>
-          <div class="mockup-window rounded-xl rounded-b-none border bg-base-300">
+          <div class=" rounded-xl rounded-b-none bg-slate-200">
             <img
               src={project.projectImg}
               alt=""
-              className=" object-cover h-80 object-center"
+              className="object-contain  px-4 h-72 object-center"
             />
           </div>
         </div>
@@ -23,6 +24,10 @@ const Project = ({ project }) => {
               return <div className="btn btn-outline btn-xs">{stack}</div>;
             })}
           </div>
+          <button className="font-semibold flex items-center gap-2 mt-6 btn btn-sm btn-ghost">
+            <ArrowNarrowRightIcon className="h-6"></ArrowNarrowRightIcon> See
+            Project Details
+          </button>
         </div>
       </div>
     </Link>
