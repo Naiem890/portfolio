@@ -22,8 +22,8 @@ const Header = () => {
   ];
 
   return (
-    <div className="container mx-auto xl:px-12 fixed top-0 bg-base-100">
-      <div class="navbar ">
+    <div className="container mx-auto xl:px-12 fixed top-0 bg-base-100 z-50">
+      <div class="navbar">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">

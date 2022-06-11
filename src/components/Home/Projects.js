@@ -49,7 +49,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="min-h-screen py-20 px-5 px-6  xl:px-20" id="projects">
+    <div className="min-h-screen py-20  px-6  xl:px-20" id="projects">
       <h2 className="text-5xl font-Kdam text-center mt-6">My Projects</h2>
       <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-14 gap-6">
         {Projects.map((project) => {
