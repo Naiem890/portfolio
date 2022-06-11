@@ -74,7 +74,15 @@ const Header = () => {
             </ul>
           </div>
           <div class="navbar-end">
-            <a class="btn capitalize">Download Resume</a>
+            <a
+              class="btn capitalize"
+              // href="https://drive.google.com/file/d/1Ei2hbzL3kdz3-b0tFuw4pxqt-17QYMrK/view?usp=sharing"
+              target="_blank"
+              href="https://drive.google.com/uc?export=download&id=1Ei2hbzL3kdz3-b0tFuw4pxqt-17QYMrK"
+              download="filename"
+            >
+              Download Resume
+            </a>
           </div>
         </div>
       </div>
