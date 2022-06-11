@@ -101,8 +101,9 @@ const Contact = () => {
               </a>
             </div>
           </div>
-          <div class="col-span-5">
-            <h3 className="text-3xl">Contact Me</h3>
+          <div class="col-span-5 py-10 pl-10 pr-4">
+            <h3 className="text-4xl font-Kdam font-bold">Let's get in touch</h3>
+
             <form action="">
               <div class="input-field">
                 <label for="name">Your Name</label>
