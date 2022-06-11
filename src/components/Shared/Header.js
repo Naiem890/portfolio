@@ -8,7 +8,7 @@ const Header = () => {
       navText: "Home",
     },
     {
-      navLink: "#",
+      navLink: "#about",
       navText: "About",
     },
     {
@@ -16,7 +16,7 @@ const Header = () => {
       navText: "Projects",
     },
     {
-      navLink: "#",
+      navLink: "#contact",
       navText: "Contact",
     },
   ];

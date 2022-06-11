@@ -2,9 +2,12 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="min-h-screen py-20  px-6  xl:px-20" id="projects">
+    <div
+      className="min-h-screen py-20 bg-slate-300 px-6  xl:px-20 flex flex-col justify-center"
+      id="about"
+    >
       <h2 className="text-5xl font-Kdam text-center mt-6">About Me</h2>
-      <div className="text-2xl md:text-5xl mt-12 text-center">
+      <div className="text-3xl md:text-4xl mt-12 text-center">
         <p className="text-slate-500 leading-snug normal-case font-light">
           Hi there, My name is Solaiman Islam Naiem. I am a Frontend Developer
           with a previous experience of 1 year working as a freelance UI-UX
