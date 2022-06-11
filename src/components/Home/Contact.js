@@ -10,13 +10,13 @@ import { Link } from "react-router-dom";
 const Contact = () => {
   return (
     <div
-      className="min-h-screen py-20 px-6  xl:px-20 text-white bg-gray-700 "
+      className="min-h-screen py-10 px-6 flex justify-center items-center xl:px-20 text-white bg-gray-700 "
       id="contact"
     >
-      <h2 className="text-5xl  font-Kdam text-center mt-6 ">Contact Me</h2>
-      <div className="mt-20 border-2 rounded-xl overflow-hidden border-gray-500 max-w-6xl mx-auto">
+      {/* <h2 className="text-5xl  font-Kdam text-center mt-6 ">Contact Me</h2> */}
+      <div className=" border-2 rounded-xl overflow-hidden border-gray-500 max-w-6xl mx-auto">
         <div class="grid grid-cols-8">
-          <div class="col-span-3 py-10 pl-10 pr-4 bg-gray-600">
+          <div class="md:col-span-3 py-10 pl-4 xl:pl-10 pr-4 bg-gray-600">
             <h3 className="text-4xl font-Kdam font-bold">Let's get in touch</h3>
             <p class="text-xl text-gray-400 font-medium mt-6 mb-9">
               I'm open for talk about project or just to have a chat.
@@ -101,35 +101,47 @@ const Contact = () => {
               </a>
             </div>
           </div>
-          <div class="col-span-5 py-10 pl-10 pr-4">
-            <h3 className="text-4xl font-Kdam font-bold">Let's get in touch</h3>
+          <div class="col-span-5 p-10">
+            <h3 className="text-4xl font-Kdam font-bold">Send Me Message</h3>
 
-            <form action="">
-              <div class="input-field">
-                <label for="name">Your Name</label>
+            <form action="" className="mt-14 flex gap-4 flex-col">
+              <div>
+                <label for="name" className="block opacity-60 font-semibold">
+                  Your Name
+                </label>
                 <input
                   type="text"
                   name="name"
                   id="name"
-                  placeholder="Your Name"
+                  className="input input-bordered text-xl h-16 bg-slate-600 w-full mt-2"
+                  placeholder="eg: Joe Brown"
                 />
               </div>
-              <div class="input-field">
-                <label for="email">Email</label>
+              <div>
+                <label for="email" className="block opacity-60 font-semibold">
+                  Email
+                </label>
                 <input
                   type="email"
                   name="email"
                   id="email"
+                  className="input input-bordered text-xl h-16 bg-slate-600 w-full mt-2"
                   placeholder="example@email.com"
                 />
               </div>
-              <div class="input-field">
-                <label for="message">Message</label>
-                <textarea name="comment" placeholder="Write here..."></textarea>
+              <div>
+                <label for="message" className="block opacity-60 font-semibold">
+                  Message
+                </label>
+                <textarea
+                  name="comment"
+                  className="textarea textarea-bordered text-xl  bg-slate-600 w-full mt-2"
+                  placeholder="Write here..."
+                ></textarea>
               </div>
-              <div class="button">
-                <button type="submit" class="btn btn-submit">
-                  Sumbit
+              <div className="flex justify-end">
+                <button type="submit" class="btn px-7">
+                  Submit
                 </button>
               </div>
             </form>
