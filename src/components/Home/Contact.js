@@ -2,12 +2,35 @@ import React from "react";
 import {
   AtSymbolIcon,
   LocationMarkerIcon,
-  MailIcon,
   PhoneIcon,
 } from "@heroicons/react/solid";
-import { Link } from "react-router-dom";
+import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
 
 const Contact = () => {
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_t1z0wta",
+        "template_bu4p9xt",
+        e.target,
+        "GKJcxYuHvXYyeU3Os"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          toast("Email Send Successfully");
+        },
+        (error) => {
+          console.log(error.text);
+          toast("Error Occurred");
+        }
+      );
+
+    e.target.reset();
+  };
+
   return (
     <div
       className="min-h-screen py-10 px-6 flex justify-center items-center xl:px-20 text-white bg-gray-700 "
@@ -104,7 +127,11 @@ const Contact = () => {
           <div class="col-span-full md:col-span-5 p-10">
             <h3 className="text-4xl font-Kdam font-bold">Send Me Message</h3>
 
-            <form action="" className="mt-14 flex gap-4 flex-col">
+            <form
+              action=""
+              onSubmit={sendEmail}
+              className="mt-14 flex gap-4 flex-col"
+            >
               <div>
                 <label for="name" className="block opacity-60 font-semibold">
                   Your Name
@@ -115,6 +142,7 @@ const Contact = () => {
                   id="name"
                   className="input input-bordered text-xl h-16 bg-slate-600 w-full mt-2"
                   placeholder="eg: Joe Brown"
+                  required
                 />
               </div>
               <div>
@@ -127,6 +155,7 @@ const Contact = () => {
                   id="email"
                   className="input input-bordered text-xl h-16 bg-slate-600 w-full mt-2"
                   placeholder="example@email.com"
+                  required
                 />
               </div>
               <div>
@@ -137,6 +166,7 @@ const Contact = () => {
                   name="comment"
                   className="textarea textarea-bordered text-xl  bg-slate-600 w-full mt-2"
                   placeholder="Write here..."
+                  required
                 ></textarea>
               </div>
               <div className="flex justify-end">
