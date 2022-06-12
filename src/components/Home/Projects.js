@@ -9,7 +9,7 @@ const Projects = () => {
     {
       projectName: "Manufacturer Tools Hub",
       projectImg: ProjectImg1,
-      projectRoute: `/project/manufacturer-tools-hub`,
+      projectRoute: `/project/manufacturer-tools-hub#`,
       projectStack: [
         "ReactJS",
         "Firebase",
@@ -24,7 +24,7 @@ const Projects = () => {
     {
       projectName: "Smart Inventory Manger",
       projectImg: ProjectImg2,
-      projectRoute: `/project/smart-inventory-manager`,
+      projectRoute: `/project/smart-inventory-manager#`,
       projectStack: [
         "ReactJS",
         "Firebase",
@@ -37,7 +37,7 @@ const Projects = () => {
     {
       projectName: "Task Manger",
       projectImg: ProjectImg3,
-      projectRoute: `/project/task-manager`,
+      projectRoute: `/project/task-manager#`,
       projectStack: [
         "ReactJS",
         "Firebase",

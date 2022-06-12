@@ -1,10 +1,11 @@
 import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Project = ({ project }) => {
   return (
-    <Link to={project.projectRoute}>
+    <HashLink to={project.projectRoute}>
       <div className="border rounded-xl cursor-pointer hover:shadow-xl transition-all shadow-zinc-900">
         <div>
           <div class=" rounded-xl rounded-b-none bg-slate-200">
@@ -30,7 +31,7 @@ const Project = ({ project }) => {
           </button>
         </div>
       </div>
-    </Link>
+    </HashLink>
   );
 };
 
