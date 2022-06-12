@@ -48,9 +48,7 @@ const InventoryManager = () => {
       </div>
 
       <div className="my-12  container mx-auto px-6  xl:px-20 ">
-        <h2 className="text-4xl font-Kdam text-center">
-          What's this project about?
-        </h2>
+        <h2 className="text-4xl font-Kdam text-center">Project Features</h2>
 
         <div className="grid md:grid-cols-2 gap-6 items-center grid-cols-1 mt-14">
           <div>
