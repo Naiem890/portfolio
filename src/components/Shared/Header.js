@@ -1,22 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Header = () => {
   const navLinks = [
     {
-      navLink: "#",
+      navLink: "/#",
       navText: "Home",
     },
     {
-      navLink: "#about",
-      navText: "About",
-    },
-    {
-      navLink: "#projects",
+      navLink: "/#projects",
       navText: "Projects",
     },
     {
-      navLink: "#contact",
+      navLink: "/#about",
+      navText: "About",
+    },
+    {
+      navLink: "/#contact",
       navText: "Contact",
     },
   ];
@@ -50,7 +51,9 @@ const Header = () => {
                 {navLinks.map((navLink) => {
                   return (
                     <li>
-                      <a href={navLink.navLink}>{navLink.navText}</a>
+                      <HashLink smooth to={navLink.navLink}>
+                        {navLink.navText}
+                      </HashLink>
                     </li>
                   );
                 })}
@@ -65,9 +68,13 @@ const Header = () => {
               {navLinks.map((navLink) => {
                 return (
                   <li>
-                    <a className="font-semibold" href={navLink.navLink}>
+                    <HashLink
+                      smooth
+                      className="font-semibold"
+                      to={navLink.navLink}
+                    >
                       {navLink.navText}
-                    </a>
+                    </HashLink>
                   </li>
                 );
               })}
