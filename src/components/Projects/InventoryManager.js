@@ -147,7 +147,7 @@ const InventoryManager = () => {
                 <div className="h-5 w-5">
                   <ArrowRightIcon className="h-5 w-5 text-green-600"></ArrowRightIcon>
                 </div>
-                User can't create new account if they don't provide valid
+                User can't add new product if they don't provide valid
                 information.
               </li>
               <li className="flex gap-3 items-center  text-gray-500">

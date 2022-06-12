@@ -1,6 +1,7 @@
 import React from "react";
 
 const Hero = () => {
+  //Todo social media link update
   return (
     <div className="bg-slate-100">
       <div className=" container mx-auto py-5 min-h-screen pt-28 md:pt-16 gap-6  px-6  xl:px-20 grid md:grid-cols-2 items-start md:items-center justify-between text-center md:text-left">
