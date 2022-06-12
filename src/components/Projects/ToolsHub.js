@@ -20,7 +20,7 @@ const ToolsHub = () => {
   return (
     <div>
       <div className="bg-red-200">
-        <div className="container mx-auto  pb-10  pt-28  gap-6  px-6  xl:px-20 grid md:grid-cols-2 items-start md:items-center justify-between text-center md:text-left">
+        <div className="container mx-auto  pb-16  pt-36  gap-6  px-6  xl:px-20 grid md:grid-cols-2 items-start md:items-center justify-between text-center md:text-left">
           <div>
             <h1 className="text-5xl capitalize font-Kdam">
               manufacturer Tools Hub{" "}
@@ -52,12 +52,12 @@ const ToolsHub = () => {
         </div>
       </div>
 
-      <div className="my-12  container mx-auto px-6  xl:px-20 ">
+      <div className="my-16 container mx-auto px-6  xl:px-20 ">
         <h2 className="text-4xl font-Kdam text-center">Project Features</h2>
 
         {/* feature 1 */}
 
-        <div className="grid md:grid-cols-2 gap-6 items-center grid-cols-1 mt-14">
+        <div className="grid md:grid-cols-2 gap-6 items-center grid-cols-1 mt-10">
           <div>
             <img src={projectDesImg1} alt="" />
           </div>
@@ -65,7 +65,7 @@ const ToolsHub = () => {
             <h3 className="text-3xl leading-snug font-Kdam  text-[#D51C00]">
               Order product in just one click
             </h3>
-            <ul className=" mt-6 flex flex-col gap-2">
+            <ul className=" mt-6 flex flex-col gap-2 text-lg">
               <li className="flex gap-3 text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className="h-5 w-5 text-red-600"></ArrowRightIcon>
@@ -96,13 +96,13 @@ const ToolsHub = () => {
             </ul>
           </div>
         </div>
-        {/* feature 1 */}
+        {/* feature 2 */}
         <div className="grid md:grid-cols-2  gap-6 items-center grid-cols-1 mt-14">
           <div className="md:order-1 order-2">
             <h3 className="text-3xl leading-snug font-Kdam  text-[#D51C00]">
               Manage your product from dashboard
             </h3>
-            <ul className=" mt-6 flex flex-col gap-2">
+            <ul className=" mt-6 flex flex-col gap-2 text-lg">
               <li className="flex gap-3 text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className="h-5 text-red-600"></ArrowRightIcon>
@@ -129,7 +129,7 @@ const ToolsHub = () => {
             <img src={projectDesImg2} alt="" />
           </div>
         </div>
-        {/* feature 1 */}
+        {/* feature 3 */}
         <div className="grid md:grid-cols-2 gap-6 items-center grid-cols-1 mt-14">
           <div>
             <img src={projectDesImg3} alt="" />
@@ -138,7 +138,7 @@ const ToolsHub = () => {
             <h3 className="text-3xl leading-snug font-Kdam  text-[#D51C00]">
               Admin dashboard for all access
             </h3>
-            <ul className=" mt-6 flex flex-col gap-2">
+            <ul className=" mt-6 flex flex-col gap-2 text-lg">
               <li className="flex gap-3 text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className="h-5 w-5 text-red-600"></ArrowRightIcon>
