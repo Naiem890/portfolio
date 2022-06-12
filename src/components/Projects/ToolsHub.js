@@ -66,27 +66,27 @@ const ToolsHub = () => {
               Order product in just one click
             </h3>
             <ul className=" mt-6 flex flex-col gap-2 text-lg">
-              <li className="flex gap-3 text-gray-500">
+              <li className="flex gap-3 items-center  text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className="h-5 w-5 text-red-600"></ArrowRightIcon>
                 </div>
                 User can place order in bulk amount form this page
               </li>
-              <li className="flex gap-3 text-gray-500">
+              <li className="flex gap-3 items-center  text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className=" h-5 text-red-600"></ArrowRightIcon>
                 </div>
                 This page is protected. That's mean, no one can access this page
                 without login.
               </li>
-              <li className="flex gap-3 text-gray-500">
+              <li className="flex gap-3 items-center  text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className="h-5 text-red-600"></ArrowRightIcon>
                 </div>
                 If they try to access this page without login.It will redirect
                 to login page
               </li>
-              <li className="flex gap-3 text-gray-500">
+              <li className="flex gap-3 items-center  text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className="h-5 text-red-600"></ArrowRightIcon>
                 </div>
@@ -103,21 +103,21 @@ const ToolsHub = () => {
               Manage your product from dashboard
             </h3>
             <ul className=" mt-6 flex flex-col gap-2 text-lg">
-              <li className="flex gap-3 text-gray-500">
+              <li className="flex gap-3 items-center  text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className="h-5 text-red-600"></ArrowRightIcon>
                 </div>
                 User can see all the product form one place. Also there is
                 option to delete any order.
               </li>
-              <li className="flex gap-3 text-gray-500">
+              <li className="flex gap-3 items-center  text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className="h-5 text-red-600"></ArrowRightIcon>
                 </div>
                 In dashboard user can edit and update user informations like
                 Full Name, Profile Image and other.
               </li>
-              <li className="flex gap-3 text-gray-500">
+              <li className="flex gap-3 items-center  text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className="h-5 text-red-600"></ArrowRightIcon>
                 </div>
@@ -139,27 +139,27 @@ const ToolsHub = () => {
               Admin dashboard for all access
             </h3>
             <ul className=" mt-6 flex flex-col gap-2 text-lg">
-              <li className="flex gap-3 text-gray-500">
+              <li className="flex gap-3 items-center  text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className="h-5 w-5 text-red-600"></ArrowRightIcon>
                 </div>
                 Admin has some administrative access of this site
               </li>
-              <li className="flex gap-3 text-gray-500">
+              <li className="flex gap-3 items-center  text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className=" h-5 text-red-600"></ArrowRightIcon>
                 </div>
                 Admin can see all the products that are listed in this site and
                 add new product
               </li>
-              <li className="flex gap-3 text-gray-500">
+              <li className="flex gap-3 items-center  text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className="h-5 text-red-600"></ArrowRightIcon>
                 </div>
                 Admin can see all the user of this site. Also he/she can make an
                 user admin and delete any user if needed.
               </li>
-              <li className="flex gap-3 text-gray-500">
+              <li className="flex gap-3 items-center  text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className="h-5 text-red-600"></ArrowRightIcon>
                 </div>

@@ -64,27 +64,27 @@ const InventoryManager = () => {
               Manage product in one place
             </h3>
             <ul className=" mt-6 flex flex-col gap-2 text-lg">
-              <li className="flex gap-3 text-gray-500">
+              <li className="flex gap-3 items-center  text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className="h-5 w-5 text-green-600"></ArrowRightIcon>
                 </div>
                 User will see the product details in this page
               </li>
-              <li className="flex gap-3 text-gray-500">
+              <li className="flex gap-3 items-center  text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className=" h-5 text-green-600"></ArrowRightIcon>
                 </div>
                 This page is protected. That's mean, no one can access this page
                 without login.
               </li>
-              <li className="flex gap-3 text-gray-500">
+              <li className="flex gap-3 items-center  text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className="h-5 text-green-600"></ArrowRightIcon>
                 </div>
-                If they try to access this page without login.It will greenirect
+                If they try to access this page without login.It will redirect
                 to login page.
               </li>
-              <li className="flex gap-3 text-gray-500">
+              <li className="flex gap-3 items-center  text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className="h-5 text-green-600"></ArrowRightIcon>
                 </div>
@@ -101,21 +101,21 @@ const InventoryManager = () => {
               Manage your product inventory
             </h3>
             <ul className=" mt-6 flex flex-col gap-2 text-lg">
-              <li className="flex gap-3 text-gray-500">
+              <li className="flex gap-3 items-center  text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className="h-5 text-green-600"></ArrowRightIcon>
                 </div>
                 User can see all the product form one place. and delete any
                 product if needed
               </li>
-              <li className="flex gap-3 text-gray-500">
+              <li className="flex gap-3 items-center  text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className="h-5 text-green-600"></ArrowRightIcon>
                 </div>
                 User can also see product that are added only by him in ''My
                 Product'' page
               </li>
-              <li className="flex gap-3 text-gray-500">
+              <li className="flex gap-3 items-center  text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className="h-5 text-green-600"></ArrowRightIcon>
                 </div>
@@ -137,20 +137,20 @@ const InventoryManager = () => {
               Add product in one click
             </h3>
             <ul className=" mt-6 flex flex-col gap-2 text-lg">
-              <li className="flex gap-3 text-gray-500">
+              <li className="flex gap-3 items-center  text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className="h-5 w-5 text-green-600"></ArrowRightIcon>
                 </div>
                 User have to fill up information to add new product
               </li>
-              <li className="flex gap-3 text-gray-500">
+              <li className="flex gap-3 items-center  text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className="h-5 w-5 text-green-600"></ArrowRightIcon>
                 </div>
                 User can't create new account if they don't provide valid
                 information.
               </li>
-              <li className="flex gap-3 text-gray-500">
+              <li className="flex gap-3 items-center  text-gray-500">
                 <div className="h-5 w-5">
                   <ArrowRightIcon className="h-5 w-5 text-green-600"></ArrowRightIcon>
                 </div>

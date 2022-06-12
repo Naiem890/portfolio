@@ -1,28 +1,28 @@
 import { ArrowRightIcon, ArrowSmRightIcon } from "@heroicons/react/solid";
 import React from "react";
 import projectImg from "../../images/project-3.png";
+
+import projectDesImg1 from "../../images/project-3-details-1.png";
+
 const TaskManager = () => {
   const projectStack = [
     "ReactJS",
+    "TailwindCSS",
     "Firebase",
     "React Router",
     "NodeJS",
     "Express",
     "Mongodb",
-    "admin",
-    "jwt",
   ];
   return (
     <div>
-      <div className="bg-red-200">
-        <div className="container mx-auto  pb-10  pt-28  gap-6  px-6  xl:px-20 grid md:grid-cols-2 items-start md:items-center justify-between text-center md:text-left">
+      <div className="bg-blue-200">
+        <div className="container mx-auto  pb-16  pt-36  gap-6  px-6  xl:px-20 grid md:grid-cols-2 items-start md:items-center justify-between text-center md:text-left">
           <div>
-            <h1 className="text-5xl capitalize font-Kdam">Task Manager</h1>
+            <h1 className="text-5xl capitalize font-Kdam">Task manager</h1>
             <p className="mt-6 text-lg xl:text-xl text-gray-500 mx-auto md:mx-0 sm:w-10/12">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perspiciatis quas necessitatibus velit id cumque vero facilis at
-              aliquid sequi, possimus minima adipisci voluptas laboriosam
-              eligendi?
+              A small web app for keep track of daily task. User can add, delete
+              and mark as done any task.
             </p>
             <div className="flex mt-4 gap-2 mx-auto md:mx-0 justify-center md:justify-start sm:w-10/12 opacity-60 flex-wrap">
               {projectStack.map((stack) => {
@@ -31,12 +31,12 @@ const TaskManager = () => {
             </div>
             <a
               target="_blank"
-              href="https://tools-hub-e018a.web.app/"
+              href="https://task-manager-6f371.web.app/"
               className="btn-md  mt-6 font-bold btn"
               rel="noreferrer"
             >
               Live Link
-              <ArrowSmRightIcon className="h-6 ml-2 -mr-2"></ArrowSmRightIcon>
+              <ArrowSmRightIcon className="h-5 ml-2 -mr-2"></ArrowSmRightIcon>
             </a>
           </div>
           <div>
@@ -45,73 +45,48 @@ const TaskManager = () => {
         </div>
       </div>
 
-      <div className="my-12  container mx-auto px-6  xl:px-20 ">
+      <div className="my-16 container mx-auto px-6  xl:px-20 ">
         <h2 className="text-4xl font-Kdam text-center">Project Features</h2>
 
-        <div className="grid md:grid-cols-2 gap-6 items-center grid-cols-1 mt-14">
+        {/* feature 1 */}
+
+        <div className="grid md:grid-cols-2 gap-6 items-center grid-cols-1 mt-10">
           <div>
-            <img src={projectImg} alt="" />
+            <img src={projectDesImg1} alt="" />
           </div>
           <div>
-            <h3 className="text-3xl leading-snug font-Kdam  text-[#D51C00]">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius,
-              minima!
+            <h3 className="text-3xl leading-snug font-Kdam  text-blue-500">
+              Manage task easily
             </h3>
-            <ul className=" mt-6 flex flex-col gap-2">
-              <li className="flex gap-3 text-gray-500">
-                <ArrowRightIcon className="h-6 text-red-600"></ArrowRightIcon>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Officiis, assumenda? Officiis, assumenda? Officiis, assumenda?
+            <ul className=" mt-6 flex flex-col gap-2 text-lg">
+              <li className="flex gap-3 items-center text-gray-500">
+                <div className="h-5 w-5">
+                  <ArrowRightIcon className=" h-5 text-blue-600"></ArrowRightIcon>
+                </div>
+                User can add any task with task name and details.
               </li>
-              <li className="flex gap-3 text-gray-500">
-                <ArrowRightIcon className="h-6 text-red-600"></ArrowRightIcon>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Officiis, assumenda? Officiis, assumenda? Officiis, assumenda?
+              <li className="flex gap-3 items-center text-gray-500">
+                <div className="h-5 w-5">
+                  <ArrowRightIcon className=" h-5 text-blue-600"></ArrowRightIcon>
+                </div>
+                User can view details, delete or mark as done any task.
               </li>
-              <li className="flex gap-3 text-gray-500">
-                <ArrowRightIcon className="h-6 text-red-600"></ArrowRightIcon>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Officiis, assumenda? Officiis, assumenda? Officiis, assumenda?
+              <li className="flex gap-3 items-center text-gray-500">
+                <div className="h-5 w-5">
+                  <ArrowRightIcon className=" h-5 text-blue-600"></ArrowRightIcon>
+                </div>
+                This app is protected. That's mean, no one can access this app
+                without login.
               </li>
-              <li className="flex gap-3 text-gray-500">
-                <ArrowRightIcon className="h-6 text-red-600"></ArrowRightIcon>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Officiis, assumenda? Officiis, assumenda? Officiis, assumenda?
+
+              <li className="flex gap-3 items-center text-gray-500">
+                <div className="h-5 w-5">
+                  <ArrowRightIcon className="h-5 text-blue-600"></ArrowRightIcon>
+                </div>
+                If they try to access this app without login.It will redirect to
+                login page.
               </li>
             </ul>
-          </div>
-        </div>
-        <div className="grid md:grid-cols-2  gap-6 items-center grid-cols-1 mt-14">
-          <div className="md:order-1 order-2">
-            <h3 className="text-3xl leading-snug font-Kdam  text-[#D51C00]">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius,
-              minima!
-            </h3>
-            <ul className=" mt-6 flex flex-col gap-2">
-              <li className="flex gap-3 text-gray-500">
-                <ArrowRightIcon className="h-6 text-red-600"></ArrowRightIcon>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Officiis, assumenda? Officiis, assumenda? Officiis, assumenda?
-              </li>
-              <li className="flex gap-3 text-gray-500">
-                <ArrowRightIcon className="h-6 text-red-600"></ArrowRightIcon>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Officiis, assumenda? Officiis, assumenda? Officiis, assumenda?
-              </li>
-              <li className="flex gap-3 text-gray-500">
-                <ArrowRightIcon className="h-6 text-red-600"></ArrowRightIcon>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Officiis, assumenda? Officiis, assumenda? Officiis, assumenda?
-              </li>
-              <li className="flex gap-3 text-gray-500">
-                <ArrowRightIcon className="h-6 text-red-600"></ArrowRightIcon>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Officiis, assumenda? Officiis, assumenda? Officiis, assumenda?
-              </li>
-            </ul>
-          </div>
-          <div className="md:order-2 order-1">
-            <img src={projectImg} alt="" />
           </div>
         </div>
       </div>
