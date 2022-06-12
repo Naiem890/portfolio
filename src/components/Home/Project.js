@@ -11,7 +11,7 @@ const Project = ({ project }) => {
             <img
               src={project.projectImg}
               alt=""
-              className="object-contain  px-4 h-72 object-center"
+              className="object-contain mx-auto px-2 sm:px-4 py-4 object-center"
             />
           </div>
         </div>

@@ -59,9 +59,13 @@ const Header = () => {
                 })}
               </ul>
             </div>
-            <Link to={"#"} class="btn btn-ghost normal-case text-xl px-0 ">
+            <HashLink
+              smooth
+              to="/#"
+              class="btn btn-ghost normal-case text-xl px-0 "
+            >
               Solaiman I. N.
-            </Link>
+            </HashLink>
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal p-0">
