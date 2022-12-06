@@ -38,7 +38,7 @@ const ToolsHub = () => {
             </div>
             <a
               target="_blank"
-              href="https://tools-hub-e018a.web.app/"
+              href="https://tools-hub-client.vercel.app/"
               className="btn-md  mt-6 font-bold btn"
               rel="noreferrer"
             >
