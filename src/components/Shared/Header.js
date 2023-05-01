@@ -88,8 +88,9 @@ const Header = () => {
             <a
               class="btn capitalize"
               // href="https://drive.google.com/file/d/1Ei2hbzL3kdz3-b0tFuw4pxqt-17QYMrK/view?usp=sharing"
+              // https://drive.google.com/file/d/1TYwJTcT0tRFria5Li5aNYv-itPoqr0jA/view?usp=sharing
               target="_blank"
-              href="https://drive.google.com/uc?export=download&id=1Ei2hbzL3kdz3-b0tFuw4pxqt-17QYMrK"
+              href="https://drive.google.com/uc?export=download&id=1TYwJTcT0tRFria5Li5aNYv-itPoqr0jA"
               download="filename"
             >
               Download Resume
